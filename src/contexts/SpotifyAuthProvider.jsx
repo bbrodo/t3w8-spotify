@@ -34,7 +34,7 @@ export function SpotifyAuthProvider({ children }) {
     async function getAuthData() {
       const authData = await getAuthTokens(clientId, userAuthCode);
       setUserAuthData(authData);
-      window.history.replace(null, "Spotify Statsboards", "/");
+      window.history.replaceState(null, "Spotify Statsboards", "/");
     }
     if (userAuthCode) {
       getAuthData();
