@@ -1,0 +1,25 @@
+#topTracksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.trackCard {
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(19, 0, 25);
+    filter: drop-shadow(0 0 1rem black);
+    border-radius: 10px;
+}
+
+.trackCard img{
+    width: 50px;
+
+}
+
+.trackCard h2{
+    margin: 10px;
+
+}
+

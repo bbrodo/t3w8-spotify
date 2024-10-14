@@ -35,6 +35,16 @@ h1 {
   line-height: 1.1;
 }
 
+.userImg{
+  width: 50%;
+  border-radius: 50%;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -45,6 +55,8 @@ button {
   background-color: light-dark(#f9f9f9, #1a1a1a);
   cursor: pointer;
   transition: border-color 0.25s;
+  display: flex;
+  margin: 10px;
 }
 button:hover {
   border-color: #646cff;
